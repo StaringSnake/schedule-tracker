@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ScheduleTracker.Api/ScheduleTracker.Api.csproj" />
+  <Project Path="ScheduleTracker.Domain/ScheduleTracker.Domain.csproj" />
+</Solution>
