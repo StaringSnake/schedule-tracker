@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)",
+      "Bash(gh pr merge:*)",
+      "Bash(rm -rf:*)",
+      "Bash(git reset --hard:*)",
+      "Bash(git clean:*)",
+      "Bash(dotnet ef database drop:*)"
+    ],
+    "ask": [
+      "Bash(gh issue create:*)",
+      "Bash(git push:*)",
+      "Bash(dotnet ef database update:*)"
+    ]
+  }
+}
